@@ -3,7 +3,7 @@ Basics of UI testing in Android
 The repo is organized in terms of different branches representing different 'topics'.  
 These topics include:  
 
-- Testing activities in isolation
+- Testing activities in isolation (on Branch master)
 - Activity Navigation Testing
 - Test Suites
 - Fragments in Isolation

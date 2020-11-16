@@ -39,7 +39,6 @@ class MovieDetailFragmentTest{
             arrayListOf("Dwayne Johnson", "Seann William Scott", "Rosario Dawson", "Christopher Walken")
         )
 
-
         // NOTE:
         // Also could have built a "FakeMoviesRemoteDataSource" (AKA a STUB).
         // I don't think it matters in this case.
@@ -66,7 +65,7 @@ class MovieDetailFragmentTest{
 
         onView(withId(R.id.movie_description)).check(matches(withText(description)))
 
-        // Checking image is more complex so we'll do in another section
+        // Checking image is more complex so we'll do in another video
     }
 
 }
